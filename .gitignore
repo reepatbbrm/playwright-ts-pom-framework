@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Environment variables — contains real credentials, never commit
+.env
+
+# Auth state — contains live session tokens (cookies, localStorage)
+/.auth/
+/playwright/.auth/
+
+# Playwright output
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Custom reports
+/reports/
+
+# TypeScript compiled output
+/dist/
+
+# Claude AI project memory
+/.claude/

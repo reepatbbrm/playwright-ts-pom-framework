@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "types": ["node"],
+    "outDir": "./dist",
+    "ignoreDeprecations": "6.0"
+  },
+  "include": ["tests", "pages"],
+  "exclude": ["node_modules", "dist"]
+}
